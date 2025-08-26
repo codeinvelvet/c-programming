@@ -1,0 +1,36 @@
+Q5.
+#include <stdio.h>
+
+int main() {
+    float celsius, fahrenheit;
+
+    printf("Enter temperature in Celsius: ");
+    scanf("%f", &celsius);
+
+    fahrenheit = (celsius * 9 / 5) + 32;
+    printf("Temperature in Fahrenheit: %.2f\n", fahrenheit);
+
+}
+
+Q6.
+#include <stdio.h>
+
+int main() {
+    int num1, num2, temp;
+
+    printf("Enter first number: ");
+    scanf("%d", &num1);
+    printf("Enter second number: ");
+    scanf("%d", &num2);
+
+    printf("Before swapping: num1 = %d, num2 = %d\n", num1, num2);
+
+    temp = num1;  // Store num1 in temp
+    num1 = num2;  // Assign num2 to num1
+    num2 = temp;  // Assign temp (original num1) to num2
+
+    printf("After swapping: num1 = %d, num2 = %d\n", num1, num2);
+}
+
+
+
