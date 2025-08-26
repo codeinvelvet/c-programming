@@ -12,22 +12,33 @@ int main() {
     sum = num1 + num2;
     printf("The sum of %d and %d is %d\n", num1, num2, sum);
 }
+
 Q2.
 #include <stdio.h>
-int main(void)
-{
-   int one, two, s, q, m;
-   s = one+two
-   q = one/two
-   m = one*two
-   printf("Enter first positive integer: ");
-   scanf("%d", &one);
-   printf("Enter second positive integer: ");
-   scanf("%d", &two);
-   printf("The addition of %d and %d is %d", one, two, s);
-   printf("The integer division of %d divided by %d is %d", one, two, q);
-   printf("the multiplication of %d and %d is %d", &one, &two, m);
 
+int main() {
+    float num1, num2;
+    
+    printf("Enter first number: ");
+    scanf("%f", &num1);
+    printf("Enter second number: ");
+    scanf("%f", &num2);
+
+    
+    float sum = num1 + num2;
+    float difference = num1 - num2;
+    float product = num1 * num2;
+    float quotient;
+
+    if (num2 != 0) {
+        quotient = num1 / num2;
+        printf("Quotient: %.2f\n", quotient);
+    } else {
+        printf("Cannot divide by zero.\n");
+    }
+
+    printf("Sum: %.2f\n", sum);
+    printf("Difference: %.2f\n", difference);
+    printf("Product: %.2f\n", product);
+    
 }
-Q3. 
-
