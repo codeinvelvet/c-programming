@@ -1,4 +1,5 @@
-Q9.
+Q9. Write a program to calculate simple and compound interest for given principal, rate, and time.
+
 #include <stdio.h>
 #include <math.h>
 
@@ -20,7 +21,8 @@ int main() {
     printf("Compound Interest: %.2f\n", compoundInterest);
 }
 
-Q10.
+Q10. Write a program to input time in seconds and convert it to hours:minutes:seconds format.
+
 #include <stdio.h>
 
 int main() {
